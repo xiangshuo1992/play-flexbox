@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox 布局</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>一秒搞定Flexbox布局</h1>
+        <div class="we-form">
+            <div class="we-form-group">
+                <label class="we-form-label">主轴方向</label>
+                <div class="we-controls">
+                    <div class="we-form-row-col">
+                        <div class="we-form-col">
+                        	<select class="select" v-model="selected.selected1">
+				                <option v-for="option in options1" v-bind:value="option.value">{{option.text}}</option>
+				            </select>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+            <div class="we-form-group">
+                <label class="we-form-label">主轴对齐</label>
+                <div class="we-controls">
+                    <div class="we-form-row-col">
+                    	<div class="we-form-col">
+                        	<select class="select" v-model="selected.selected2">
+				                <option v-for="option in options2" v-bind:value="option.value">{{option.text}}</option>
+				            </select>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+            <div class="we-form-group">
+                <label class="we-form-label">侧轴对齐</label>
+                <div class="we-controls">
+                    <div class="we-form-row-col">
+                    	<div class="we-form-col">
+                        	<select class="select" v-model="selected.selected3">
+				                <option v-for="option in options3" v-bind:value="option.value">{{option.text}}</option>
+				            </select>
+                    	</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="we-form-group">
+                <label class="we-form-label">项目宽度</label>
+                <div class="we-controls">
+                    <div class="we-form-row-col">
+                    	<div class="we-form-col">
+                        	<select class="select" v-model="selected.selected4">
+				                <option v-for="option in options4" v-bind:value="option.value">{{option.text}}</option>
+				            </select>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resule-preview">
+        	<div class="flex" 
+        		v-bind:class="classObject" 
+
+        		id="flexbox">
+        		<div class="item">项目</div>
+        		<div class="item">项目</div>
+        		<div class="item">项目</div>
+        	</div>
+        </div>
+        <div class="resule-code">
+	        <pre class="code-display">            
+<code class="code-lang">
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;{{cssMsg}}
+</code>
+	        </pre>
+      	</div>
+        
+    </div>
+    <script src="js/vue.js"></script>
+    <script src="js/flex.js"></script>
+
+</body>
+
+</html>
