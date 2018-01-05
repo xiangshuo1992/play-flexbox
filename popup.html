@@ -66,17 +66,22 @@
         		v-bind:class="classObject" 
 
         		id="flexbox">
-        		<div class="item">项目</div>
-        		<div class="item">项目</div>
-        		<div class="item">项目</div>
+        		<div class="item">.item</div>
+        		<div class="item">.item</div>
+        		<div class="item">.item</div>
         	</div>
         </div>
         <div class="resule-code">
 	        <pre class="code-display">            
 <code class="code-lang">
-display: -webkit-box;
-display: -webkit-flex;
-display: flex;{{cssMsg}}
+.flex-wrap{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;{{cssMsg.flexWrap}}
+}
+</code><code class="code-lang" v-if="cssMsg.item">
+.item{ {{cssMsg.item}}
+}
 </code>
 	        </pre>
       	</div>

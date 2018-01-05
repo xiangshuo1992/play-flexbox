@@ -18,12 +18,11 @@ a,img{-webkit-user-drag:none;}
 button{background:none;border:0;font-size:12px;line-height:1.5;cursor: pointer;}
 b{font-weight: normal;}
 body{word-wrap:break-word;
-	font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;background:#ededed;
-	overflow-y:scroll;}
+	font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;background:#ededed;}
 ::-webkit-placeholder,body,button,input,textarea,select{font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
 
 body{
-	width: 320px;
+	width: 340px;
 	background-color: #f9f9f9;
 }
 h1{
@@ -44,7 +43,7 @@ select.select {
 	width: 320px;
     color: #3c3c3c;
     padding: 30px;
-    display: block;
+    margin: 0 auto;
     background: #f9f9f9;
 }
 .we-form .we-form-group {
@@ -104,6 +103,7 @@ select.select {
 	background-color: #faab00;
 }
 .resule-preview{
+	position: relative;
 	width: 100%;
 	height: 80px;
 	background-color: #fff;
@@ -118,6 +118,12 @@ select.select {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
+}
+.flex:after{
+	position: absolute;
+	top: 4px;
+	left: 8px;
+	content: '.flex-wrap';
 }
 
 .flex--row {
