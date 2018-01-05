@@ -31,7 +31,7 @@ body{word-wrap:break-word;
 ::-webkit-scrollbar-thumb:hover {background-clip:padding-box;background-color:#a8a8a8;border-radius:10px;}
 ::-webkit-scrollbar-track:hover {background-clip:padding-box;}
 body{
-	width: 340px;
+	width: 320px;
 	background-color: #f9f9f9;
 }
 h1{
@@ -90,19 +90,18 @@ select.select {
 .code-display {
     height: 100%;
     color: #4a4a4a;
-    font-size: .8em;
     white-space: pre;
     word-wrap: normal;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 .code-lang {
 	box-sizing: border-box;
     background: 0 0;
     color: inherit;
     display: block;
-    font-size: 1em;
     padding: 0 0 0 10px;
-    font-size: 1rem;
+    font-size: 14px;
+    line-height: 1.5;
 }
 .item{
 	width: 15%;
@@ -115,6 +114,7 @@ select.select {
 	position: relative;
 	width: 100%;
 	height: 80px;
+	font-size: 14px;
 	background-color: #fff;
 }
 #flexbox{
@@ -130,7 +130,7 @@ select.select {
 }
 .flex:after{
 	position: absolute;
-	top: 4px;
+	top: 2px;
 	left: 8px;
 	content: '.flex-wrap';
 }
