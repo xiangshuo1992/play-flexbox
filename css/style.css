@@ -21,6 +21,15 @@ body{word-wrap:break-word;
 	font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;background:#ededed;}
 ::-webkit-placeholder,body,button,input,textarea,select{font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
 
+/*针对Chrome*/
+::-webkit-scrollbar{width:6px;height:6px;background:#f1f1f1;}
+::-webkit-scrollbar-button{width:4px;height:4px;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{display:block;}
+::-webkit-scrollbar-button:vertical:start:increment,::-webkit-scrollbar-button:vertical:end:decrement {display:none;}
+::-webkit-scrollbar-corner{display:block;}
+::-webkit-scrollbar-thumb {background-clip:padding-box;background-color:#c0c0c0;border-radius:10px;}
+::-webkit-scrollbar-thumb:hover {background-clip:padding-box;background-color:#a8a8a8;border-radius:10px;}
+::-webkit-scrollbar-track:hover {background-clip:padding-box;}
 body{
 	width: 340px;
 	background-color: #f9f9f9;
