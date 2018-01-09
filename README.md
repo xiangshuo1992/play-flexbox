@@ -17,10 +17,9 @@ https://codepen.io/xiangshuo1992/pen/EovGQe
 
 ![这里写图片描述](http://img.blog.csdn.net/20180105173023439?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzc3ODkwNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-第二步：打开Chrome浏览器，打开扩展程序
-
+第二步：打开Chrome浏览器，打开扩展程序<br/>
 也可以直接打开 chrome://extensions/
-<br/>
+
 ![这里写图片描述](http://img.blog.csdn.net/20180105200140854?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzc3ODkwNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
