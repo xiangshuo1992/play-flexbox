@@ -24,7 +24,11 @@ https://codepen.io/xiangshuo1992/pen/EovGQe
 
 
 第三步：安装扩展程序<br/>
-先勾选开发者模式，然后导入解压的文件夹，就可以看到这个插件的图标出现在浏览器右上角了，点击图标就可以运行插件体验了。
+在解压后的文件中找到 `play-flexbox.crx` 文件，然后将该文件拖入浏览器 chrome://extensions/ 扩展程序中，浏览器会提示安装，确认添加插件就好，接下来你会在你的浏览器右上角看到这只猴子，点击进行使用。
+
+![这里写图片描述](http://img.blog.csdn.net/20180110165310390?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzc3ODkwNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+注：如果你想安装并调试该插件，可以先勾选开发者模式，然后导入解压的文件夹，就可以看到这个插件的图标出现在浏览器右上角了，当然你先要确保已经删掉了之前用安装包安装的插件，接下来你在编辑器中修改了代码，在这个插件下面点击重新加载就可以刷新。
 
 ![这里写图片描述](http://img.blog.csdn.net/20180105203218347?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzc3ODkwNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
