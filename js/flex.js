@@ -30,7 +30,7 @@ var typeSelect = new Vue({
 	    	'flex--align-items--baseline' : '\n  -webkit-box-align: baseline;\n  -webkit-align-items: baseline;\n  align-items: baseline;',
 	    	'flex--align-items--stretch' : '\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n  align-items: stretch;',
 	    	
-	    	'flex--flex-grow-all' : '\n  width: 100%;\n  -webkit-box-flex: 1;\n  -webkit-flex-grow: 1;\n  flex-grow: 1;',
+	    	'flex--flex-grow-all' : '\n  width: 100%;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n  flex: 1;',
 	    },
 
 	    //主轴方向
