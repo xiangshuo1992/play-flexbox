@@ -16,21 +16,21 @@ var typeSelect = new Vue({
   		},
 	    
 	    cssText:{
-	    	'flex--row' : '\n\r  -webkit-box-orient: vertical;\n\r  -webkit-box-direction: normal;\n\r  -webkit-flex-direction: column;\n\r  flex-direction: column;',
+	    	'flex--row' : '\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n  flex-direction: column;',
 	    	
-	    	'flex--justify-content--space-between' : '\n\r  -webkit-box-pack: justify;\n\r  -webkit-justify-content: space-between;\n\r  justify-content: space-between;',
-	    	'flex--justify-content--space-around' : '\n\r  -webkit-box-pack: justify;\n\r  -webkit-justify-content: space-around;\n\r  justify-content: space-around;',
-	    	'flex--justify-content--center' : '\n\r  -webkit-box-pack: center;\n\r  -webkit-justify-content: center;\n\r  justify-content: center;',
-	    	'flex--justify-content--start' : '\n\r  -webkit-box-pack: start;\n\r  -webkit-justify-content: start;\n\r  justify-content: start;',
-	    	'flex--justify-content--end' : '\n\r  -webkit-box-pack: end;\n\r  -webkit-justify-content: end;\n\r  justify-content: end;','flex--justify-content--space-around' : '\n\r  -webkit-box-pack: justify;\n\r  -webkit-justify-content: space-around;\n\r  justify-content: space-around;',
+	    	'flex--justify-content--space-between' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n  justify-content: space-between;',
+	    	'flex--justify-content--space-around' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-around;\n  justify-content: space-around;',
+	    	'flex--justify-content--center' : '\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  justify-content: center;',
+	    	'flex--justify-content--start' : '\n  -webkit-box-pack: start;\n  -webkit-justify-content: start;\n  justify-content: start;',
+	    	'flex--justify-content--end' : '\n  -webkit-box-pack: end;\n  -webkit-justify-content: end;\n  justify-content: end;','flex--justify-content--space-around' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-around;\n  justify-content: space-around;',
 	    	
-	    	'flex--align-items--center' : '\n\r  -webkit-box-align: center;\n\r  -webkit-align-items: center;\n\r  align-items: center;',
-	    	'flex--align-items--start' : '\n\r  -webkit-box-align: start;\n\r  -webkit-align-items: start;\n\r  align-items: start;',
-	    	'flex--align-items--end' : '\n\r  -webkit-box-align: end;\n\r  -webkit-align-items: end;\n\r  align-items: end;',
-	    	'flex--align-items--baseline' : '\n\r  -webkit-box-align: baseline;\n\r  -webkit-align-items: baseline;\n\r  align-items: baseline;',
-	    	'flex--align-items--stretch' : '\n\r  -webkit-box-align: stretch;\n\r  -webkit-align-items: stretch;\n\r  align-items: stretch;',
+	    	'flex--align-items--center' : '\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;',
+	    	'flex--align-items--start' : '\n  -webkit-box-align: start;\n  -webkit-align-items: start;\n  align-items: start;',
+	    	'flex--align-items--end' : '\n  -webkit-box-align: end;\n  -webkit-align-items: end;\n  align-items: end;',
+	    	'flex--align-items--baseline' : '\n  -webkit-box-align: baseline;\n  -webkit-align-items: baseline;\n  align-items: baseline;',
+	    	'flex--align-items--stretch' : '\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n  align-items: stretch;',
 	    	
-	    	'flex--flex-grow-all' : '\n\r  width: 100%;\n\r  -webkit-box-flex: 1;\n\r  -webkit-flex-grow: 1;\n\r  flex-grow: 1;',
+	    	'flex--flex-grow-all' : '\n  width: 100%;\n  -webkit-box-flex: 1;\n  -webkit-flex-grow: 1;\n  flex-grow: 1;',
 	    },
 
 	    //主轴方向
