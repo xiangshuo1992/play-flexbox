@@ -3,7 +3,7 @@
 
     "name": "play flexbox",
     "description": "preview flexbox effect and copy style",
-    "version": "0.2",
+    "version": "1.0",
 
     "browser_action": {
         "default_icon": {
