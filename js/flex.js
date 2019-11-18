@@ -21,16 +21,17 @@ var typeSelect = new Vue({
 	    	'flex--justify-content--space-between' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n  justify-content: space-between;',
 	    	'flex--justify-content--space-around' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-around;\n  justify-content: space-around;',
 	    	'flex--justify-content--center' : '\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  justify-content: center;',
-	    	'flex--justify-content--start' : '\n  -webkit-box-pack: start;\n  -webkit-justify-content: start;\n  justify-content: start;',
-	    	'flex--justify-content--end' : '\n  -webkit-box-pack: end;\n  -webkit-justify-content: end;\n  justify-content: end;','flex--justify-content--space-around' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-around;\n  justify-content: space-around;',
+	    	'flex--justify-content--start' : '\n  -webkit-box-pack: start;\n  -webkit-justify-content: flex-start;\n  justify-content: flex-start;',
+				'flex--justify-content--end' : '\n  -webkit-box-pack: end;\n  -webkit-justify-content: flex-end;\n  justify-content: flex-end;',
+				'flex--justify-content--space-around' : '\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-around;\n  justify-content: space-around;',
 	    	
 	    	'flex--align-items--center' : '\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  align-items: center;',
-	    	'flex--align-items--start' : '\n  -webkit-box-align: start;\n  -webkit-align-items: start;\n  align-items: start;',
-	    	'flex--align-items--end' : '\n  -webkit-box-align: end;\n  -webkit-align-items: end;\n  align-items: end;',
+	    	'flex--align-items--start' : '\n  -webkit-box-align: start;\n  -webkit-align-items: flex-start;\n  align-items: flex-start;',
+	    	'flex--align-items--end' : '\n  -webkit-box-align: end;\n  -webkit-align-items: flex-end;\n  align-items: flex-end;',
 	    	'flex--align-items--baseline' : '\n  -webkit-box-align: baseline;\n  -webkit-align-items: baseline;\n  align-items: baseline;',
 	    	'flex--align-items--stretch' : '\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n  align-items: stretch;',
 	    	
-	    	'flex--flex-grow-all' : '\n  width: 100%;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n  flex: 1;',
+	    	'flex--flex-grow-all' : '\n  min-width: 0;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n  flex: 1;',
 	    },
 
 	    //主轴方向
